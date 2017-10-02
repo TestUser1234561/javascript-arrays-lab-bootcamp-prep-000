@@ -22,3 +22,7 @@ function appendKitten(name) {
   temp.push(name)
   return temp
 }
+
+function prependKitten(name) {
+
+}
