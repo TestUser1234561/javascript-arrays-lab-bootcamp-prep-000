@@ -24,5 +24,7 @@ function appendKitten(name) {
 }
 
 function prependKitten(name) {
-
+  let temp = [...kittens]
+  temp.unshift(name)
+  return temp
 }
