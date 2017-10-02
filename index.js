@@ -28,3 +28,15 @@ function prependKitten(name) {
   temp.unshift(name)
   return temp
 }
+
+function removeLastKitten() {
+  let temp = [...kittens]
+  temp.pop(name)
+  return temp
+}
+
+function removeFirstKitten() {
+  let temp = [...kittens]
+  temp.shift(name)
+  return temp
+}
